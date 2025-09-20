@@ -1,0 +1,620 @@
+{
+  "brandGuidelines": {
+    "companyName": "Tryhob",
+    "colorPalette": {
+      "primary": "#02153D",
+      "secondary": "#00EED0",
+      "accent1": "#2e3d6c",
+      "accent2": "#0197AF"
+    },
+    "typography": {
+      "headings": "Open Sans",
+      "body": "Railway"
+    }
+  },
+  "layout": {
+    "sections": [
+      {
+        "id": "header",
+        "type": "navigation",
+        "structure": {
+          "position": "fixed-top",
+          "background": "transparent-overlay",
+          "elements": [
+            {
+              "type": "logo",
+              "position": "left",
+              "content": "Tryhob",
+              "styling": {
+                "fontFamily": "Open Sans",
+                "fontWeight": "bold",
+                "color": "#00EED0"
+              }
+            },
+            {
+              "type": "navigation-menu",
+              "position": "center",
+              "items": [
+                "About Us",
+                "Courses",
+                "Shop",
+                "Blog",
+                "Contact Us"
+              ],
+              "styling": {
+                "fontFamily": "Railway",
+                "color": "white",
+                "hoverColor": "#00EED0"
+              }
+            },
+            {
+              "type": "cta-buttons",
+              "position": "right",
+              "buttons": [
+                {
+                  "text": "Login",
+                  "style": "outline",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#00EED0",
+                  "textColor": "white"
+                },
+                {
+                  "type": "icon-button",
+                  "icon": "arrow-right",
+                  "backgroundColor": "#00EED0",
+                  "textColor": "#02153D"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "hero",
+        "type": "hero-section",
+        "structure": {
+          "background": {
+            "type": "gradient",
+            "colors": ["#02153D", "#2e3d6c"],
+            "overlay": "geometric-pattern"
+          },
+          "layout": "two-column",
+          "elements": [
+            {
+              "type": "content-column",
+              "position": "left",
+              "elements": [
+                {
+                  "type": "badge",
+                  "text": "#1 E-Learning Platform 2025",
+                  "styling": {
+                    "backgroundColor": "rgba(0, 238, 208, 0.1)",
+                    "borderColor": "#00EED0",
+                    "textColor": "#00EED0",
+                    "fontFamily": "Railway"
+                  }
+                },
+                {
+                  "type": "headline",
+                  "text": "Launch Career with Ready Online Courses",
+                  "styling": {
+                    "fontFamily": "Open Sans",
+                    "fontSize": "clamp(2.5rem, 5vw, 4rem)",
+                    "fontWeight": "bold",
+                    "color": "white",
+                    "lineHeight": "1.2"
+                  }
+                },
+                {
+                  "type": "description",
+                  "text": "Join thousands of learners worldwide accessing cutting-edge courses designed for modern minds.",
+                  "styling": {
+                    "fontFamily": "Railway",
+                    "fontSize": "1.1rem",
+                    "color": "rgba(255, 255, 255, 0.8)",
+                    "lineHeight": "1.6"
+                  }
+                },
+                {
+                  "type": "cta-group",
+                  "buttons": [
+                    {
+                      "text": "Enroll Our Course Now",
+                      "style": "primary",
+                      "backgroundColor": "#00EED0",
+                      "textColor": "#02153D",
+                      "fontFamily": "Open Sans",
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "icon-button",
+                      "icon": "arrow-right",
+                      "backgroundColor": "#0197AF",
+                      "textColor": "white"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "visual-column",
+              "position": "right",
+              "elements": [
+                {
+                  "type": "hero-image",
+                  "description": "Student with backpack giving thumbs up",
+                  "styling": {
+                    "position": "relative",
+                    "zIndex": "2"
+                  }
+                },
+                {
+                  "type": "background-shape",
+                  "shape": "large-circle",
+                  "color": "rgba(0, 238, 208, 0.1)",
+                  "position": "behind-image"
+                },
+                {
+                  "type": "floating-icons",
+                  "icons": [
+                    {
+                      "type": "lightbulb",
+                      "position": "top-left",
+                      "color": "#00EED0"
+                    },
+                    {
+                      "type": "chart",
+                      "position": "top-right",
+                      "color": "#0197AF"
+                    },
+                    {
+                      "type": "arrow",
+                      "position": "bottom-left",
+                      "color": "#00EED0"
+                    },
+                    {
+                      "type": "target",
+                      "position": "bottom-right",
+                      "color": "#0197AF"
+                    },
+                    {
+                      "type": "settings",
+                      "position": "far-right",
+                      "color": "#00EED0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "sideElements": [
+            {
+              "type": "testimonial-card",
+              "position": "right-side",
+              "elements": [
+                {
+                  "type": "rating",
+                  "stars": 5,
+                  "color": "#00EED0"
+                },
+                {
+                  "type": "quote",
+                  "text": "Modern, sleek, and focused on real skills. I loved the hands-on projects and their system",
+                  "styling": {
+                    "fontFamily": "Railway",
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "author",
+                  "name": "Jason Kim",
+                  "title": "UX Designer",
+                  "avatar": "profile-image"
+                }
+              ],
+              "styling": {
+                "backgroundColor": "rgba(0, 238, 208, 0.1)",
+                "backdropFilter": "blur(10px)",
+                "borderRadius": "16px",
+                "border": "1px solid rgba(0, 238, 208, 0.2)"
+              }
+            },
+            {
+              "type": "stats-card",
+              "position": "left-side",
+              "elements": [
+                {
+                  "type": "quote-icon",
+                  "color": "#00EED0"
+                },
+                {
+                  "type": "description",
+                  "text": "From AI-enhanced lessons to real-world projects, our platform empowers you to learn.",
+                  "styling": {
+                    "fontFamily": "Railway",
+                    "color": "white"
+                  }
+                },
+                {
+                  "type": "metric",
+                  "number": "5000+",
+                  "label": "Top Notch Courses",
+                  "styling": {
+                    "numberColor": "white",
+                    "numberFont": "Open Sans",
+                    "labelColor": "rgba(255, 255, 255, 0.7)",
+                    "labelFont": "Railway"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "features",
+        "type": "features-section",
+        "structure": {
+          "background": {
+            "type": "solid",
+            "color": "#f8f9fa"
+          },
+          "layout": "two-column",
+          "elements": [
+            {
+              "type": "visual-column",
+              "position": "left",
+              "elements": [
+                {
+                  "type": "feature-image",
+                  "description": "Student in plaid shirt with progress indicators",
+                  "styling": {
+                    "borderRadius": "20px"
+                  }
+                },
+                {
+                  "type": "floating-elements",
+                  "elements": [
+                    {
+                      "type": "progress-indicator",
+                      "percentage": "55%",
+                      "label": "Learning Progress",
+                      "color": "#0197AF"
+                    },
+                    {
+                      "type": "growth-stat",
+                      "value": "25.20%",
+                      "label": "Last month",
+                      "trend": "up",
+                      "color": "#00EED0"
+                    },
+                    {
+                      "type": "view-all-button",
+                      "text": "View all",
+                      "backgroundColor": "#0197AF",
+                      "textColor": "white"
+                    }
+                  ]
+                },
+                {
+                  "type": "decorative-shapes",
+                  "shapes": [
+                    {
+                      "type": "curved-line",
+                      "position": "top-left",
+                      "color": "#00EED0"
+                    },
+                    {
+                      "type": "dots-pattern",
+                      "position": "top-right",
+                      "color": "#0197AF"
+                    },
+                    {
+                      "type": "wavy-lines",
+                      "position": "bottom-left",
+                      "color": "#00EED0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "content-column",
+              "position": "right",
+              "elements": [
+                {
+                  "type": "section-label",
+                  "text": "Our Key Features",
+                  "styling": {
+                    "fontFamily": "Railway",
+                    "color": "#0197AF",
+                    "fontSize": "0.9rem",
+                    "textTransform": "uppercase",
+                    "letterSpacing": "0.1em"
+                  }
+                },
+                {
+                  "type": "section-title",
+                  "text": "Powerful Features for Your Learning Journey",
+                  "styling": {
+                    "fontFamily": "Open Sans",
+                    "fontSize": "clamp(2rem, 4vw, 3rem)",
+                    "fontWeight": "bold",
+                    "color": "#02153D",
+                    "lineHeight": "1.2"
+                  }
+                },
+                {
+                  "type": "section-description",
+                  "text": "From personalized recommendations to interactive content, we've got everything you need to succeed.",
+                  "styling": {
+                    "fontFamily": "Railway",
+                    "color": "#2e3d6c",
+                    "fontSize": "1.1rem",
+                    "lineHeight": "1.6"
+                  }
+                },
+                {
+                  "type": "features-list",
+                  "features": [
+                    {
+                      "icon": "check-circle",
+                      "iconColor": "#00EED0",
+                      "title": "Personalized Learning Paths",
+                      "description": "Get personalized course recommendations",
+                      "titleFont": "Open Sans",
+                      "descriptionFont": "Railway"
+                    },
+                    {
+                      "icon": "check-circle",
+                      "iconColor": "#00EED0",
+                      "title": "Live Sessions & Webinars",
+                      "description": "Where students can engage directly with instructors.",
+                      "titleFont": "Open Sans",
+                      "descriptionFont": "Railway"
+                    },
+                    {
+                      "icon": "check-circle",
+                      "iconColor": "#00EED0",
+                      "title": "Student Dashboard",
+                      "description": "Students can access their courses, track progress.",
+                      "titleFont": "Open Sans",
+                      "descriptionFont": "Railway"
+                    },
+                    {
+                      "icon": "check-circle",
+                      "iconColor": "#00EED0",
+                      "title": "Community & Networking",
+                      "description": "Connect students through a community platform.",
+                      "titleFont": "Open Sans",
+                      "descriptionFont": "Railway"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "cta-footer",
+        "type": "call-to-action-section",
+        "structure": {
+          "background": {
+            "type": "solid",
+            "color": "#02153D"
+          },
+          "layout": "centered",
+          "elements": [
+            {
+              "type": "cta-content",
+              "elements": [
+                {
+                  "type": "cta-title",
+                  "text": "Start Your Learning Journey Today!",
+                  "styling": {
+                    "fontFamily": "Open Sans",
+                    "fontSize": "clamp(2rem, 4vw, 3rem)",
+                    "fontWeight": "bold",
+                    "color": "white",
+                    "textAlign": "center"
+                  }
+                },
+                {
+                  "type": "cta-description",
+                  "text": "Browse courses and unlock new skills to reach your goals.",
+                  "styling": {
+                    "fontFamily": "Railway",
+                    "color": "rgba(255, 255, 255, 0.8)",
+                    "fontSize": "1.1rem",
+                    "textAlign": "center"
+                  }
+                },
+                {
+                  "type": "email-signup",
+                  "elements": [
+                    {
+                      "type": "email-input",
+                      "placeholder": "Email Address",
+                      "styling": {
+                        "backgroundColor": "rgba(255, 255, 255, 0.1)",
+                        "borderColor": "rgba(255, 255, 255, 0.2)",
+                        "textColor": "white",
+                        "placeholderColor": "rgba(255, 255, 255, 0.6)"
+                      }
+                    },
+                    {
+                      "type": "submit-button",
+                      "text": "Login",
+                      "backgroundColor": "#00EED0",
+                      "textColor": "#02153D"
+                    },
+                    {
+                      "type": "icon-button",
+                      "icon": "arrow-right",
+                      "backgroundColor": "#0197AF",
+                      "textColor": "white"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "footer",
+        "type": "footer-section",
+        "structure": {
+          "background": {
+            "type": "solid",
+            "color": "#02153D"
+          },
+          "layout": "multi-column",
+          "elements": [
+            {
+              "type": "contact-info",
+              "position": "left",
+              "elements": [
+                {
+                  "type": "brand-logo",
+                  "text": "Tryhob",
+                  "styling": {
+                    "fontFamily": "Open Sans",
+                    "fontWeight": "bold",
+                    "color": "#00EED0"
+                  }
+                },
+                {
+                  "type": "contact-details",
+                  "title": "Contact Us",
+                  "phone": "(222) 545-4543",
+                  "styling": {
+                    "titleColor": "white",
+                    "phoneColor": "rgba(255, 255, 255, 0.8)",
+                    "fontFamily": "Railway"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "navigation-links",
+              "position": "center",
+              "links": [
+                "Courses",
+                "Shop",
+                "Contact Us"
+              ],
+              "styling": {
+                "fontFamily": "Railway",
+                "color": "rgba(255, 255, 255, 0.8)",
+                "hoverColor": "#00EED0"
+              }
+            },
+            {
+              "type": "legal-links",
+              "position": "center-right",
+              "links": [
+                "Terms & Conditions",
+                "Privacy Policy"
+              ],
+              "styling": {
+                "fontFamily": "Railway",
+                "color": "rgba(255, 255, 255, 0.6)"
+              }
+            },
+            {
+              "type": "social-media",
+              "position": "right",
+              "title": "Social Media",
+              "platforms": [
+                {
+                  "name": "Facebook",
+                  "icon": "facebook",
+                  "color": "#00EED0"
+                },
+                {
+                  "name": "Instagram", 
+                  "icon": "instagram",
+                  "color": "#00EED0"
+                },
+                {
+                  "name": "Twitter",
+                  "icon": "twitter",
+                  "color": "#00EED0"
+                },
+                {
+                  "name": "YouTube",
+                  "icon": "youtube",
+                  "color": "#00EED0"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "designPatterns": {
+    "buttons": {
+      "primary": {
+        "backgroundColor": "#00EED0",
+        "textColor": "#02153D",
+        "fontFamily": "Open Sans",
+        "fontWeight": "semibold",
+        "borderRadius": "50px",
+        "padding": "12px 32px",
+        "hoverEffect": "slight-scale"
+      },
+      "secondary": {
+        "backgroundColor": "#0197AF",
+        "textColor": "white",
+        "fontFamily": "Open Sans",
+        "borderRadius": "50px",
+        "padding": "12px 32px"
+      },
+      "outline": {
+        "backgroundColor": "transparent",
+        "borderColor": "#00EED0",
+        "textColor": "#00EED0",
+        "borderRadius": "50px",
+        "padding": "12px 32px"
+      },
+      "icon": {
+        "shape": "circle",
+        "size": "48px",
+        "iconSize": "20px"
+      }
+    },
+    "cards": {
+      "testimonial": {
+        "backgroundColor": "rgba(0, 238, 208, 0.1)",
+        "backdropFilter": "blur(10px)",
+        "borderRadius": "16px",
+        "border": "1px solid rgba(0, 238, 208, 0.2)",
+        "padding": "24px"
+      },
+      "feature": {
+        "backgroundColor": "white",
+        "borderRadius": "16px",
+        "boxShadow": "0 10px 30px rgba(2, 21, 61, 0.1)",
+        "padding": "32px"
+      }
+    },
+    "spacing": {
+      "sectionPadding": "80px 0",
+      "containerMaxWidth": "1200px",
+      "gridGap": "32px"
+    },
+    "animations": {
+      "floatingElements": "gentle-float",
+      "hoverEffects": "smooth-scale",
+      "fadeInOnScroll": "fade-up"
+    }
+  },
+  "responsiveBreakpoints": {
+    "mobile": "768px",
+    "tablet": "1024px",
+    "desktop": "1200px"
+  }
+}
